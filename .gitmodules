@@ -1,0 +1,11 @@
+# git submodule add --force -b master --name content_and_assets https://github.com/AmanRathoreP/Personal-Website-Assets content/
+[submodule "content_and_assets"]
+	path = content
+	url = https://github.com/AmanRathoreP/Personal-Website-Assets
+	branch = master
+
+# git submodule add --force -b master --name theme_stack https://github.com/AmanRathoreP/hugo-theme-stack themes/hugo-theme-stack/
+[submodule "theme_stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/AmanRathoreP/hugo-theme-stack
+	branch = master

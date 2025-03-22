@@ -1,0 +1,157 @@
+baseurl = "./"
+languageCode = "en-us"
+theme = "hugo-theme-stack"
+title = "Aman Rathore"
+copyright = "Aman Rathore"
+DefaultContentLanguage = "en"
+hasCJKLanguage = false
+
+[languages.en]
+languageName = "English"
+title = "Aman Rathore"
+weight = 1
+
+[languages.en.params.sidebar]
+subtitle = "The biggest enemy of talent is applause"
+
+[services.googleAnalytics]
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "images/favicon.ico"
+
+[params.footer]
+since = 2_020
+
+[params.dateFormat]
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[params.sidebar]
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "images/me, 20250313_162430.jpeg"
+
+[params.article]
+math = false
+toc = true
+readingTime = true
+showDate = true
+
+[params.article.license]
+enabled = false
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[menu]
+main = []
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/CaiJimmy/hugo-theme-stack"
+
+[menu.social.params]
+icon = "brand-github"
+
+[[menu.social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com"
+
+[menu.social.params]
+icon = "brand-twitter"
+
+[[menu.social]]
+identifier = "instagram"
+name = "Instagram"
+url = "https://instagram.com/"
+
+[menu.social.params]
+icon = "brand-twitter"
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 200
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [["\\[", "\\]"], ["$$", "$$"]]
+inline = [["\\(", "\\)"]]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
