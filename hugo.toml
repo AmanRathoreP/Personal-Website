@@ -98,26 +98,25 @@ main = []
 [[menu.social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/AmanRathoreP"
 
 [menu.social.params]
 icon = "brand-github"
 
 [[menu.social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
-
-[menu.social.params]
-icon = "brand-twitter"
-
-[[menu.social]]
 identifier = "instagram"
 name = "Instagram"
-url = "https://instagram.com/"
+url = "https://www.instagram.com/aman__0864/"
 
 [menu.social.params]
-icon = "brand-twitter"
+icon = "platforms/brand-instagram"
+[[menu.social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/amanrathorep"
+
+[menu.social.params]
+icon = "platforms/brand-linkedin"
 
 [related]
 includeNewer = true
