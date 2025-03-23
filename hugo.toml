@@ -27,7 +27,7 @@ rssFullContent = true
 favicon = "images/favicon.ico"
 
 [params.footer]
-since = 2_020
+since = 2_025
 
 [params.dateFormat]
 published = "Jan 02, 2006"
