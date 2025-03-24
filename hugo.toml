@@ -86,7 +86,7 @@ local = false
 
 [params.colorScheme]
 toggle = true
-default = "auto"
+default = "light"
 
 [params.imageProcessing.cover]
 enabled = true
