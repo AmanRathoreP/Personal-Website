@@ -14,7 +14,9 @@ weight = 1
 [languages.en.params.sidebar]
 subtitle = "The biggest enemy of talent is applause"
 
+[services]
 [services.googleAnalytics]
+id = 'G-G9W7J5DST6'
 
 [permalinks]
 post = "/p/:slug/"
