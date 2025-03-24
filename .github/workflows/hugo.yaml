@@ -61,6 +61,11 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+
+      - name: Clean public directory
+        run: |
+          if [ -d ./public ]; then rm -rf ./public; fi
+
       - name: Build with Hugo
         run: |
           hugo \
