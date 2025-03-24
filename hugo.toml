@@ -23,7 +23,7 @@ post = "/p/:slug/"
 page = "/:slug/"
 
 [params]
-mainSections = ["post"]
+mainSections = ["column"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "images/favicon.ico"
