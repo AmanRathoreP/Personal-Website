@@ -158,3 +158,6 @@ tabWidth = 4
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[pagination]
+pagerSize = 7
