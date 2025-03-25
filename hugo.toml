@@ -21,6 +21,7 @@ id = 'G-G9W7J5DST6'
 [permalinks]
 post = "/p/:slug/"
 page = "/:slug/"
+categories = "/institution/:slug/"
 
 [params]
 mainSections = ["column"]
