@@ -1,4 +1,4 @@
-baseurl = "./"
+baseurl = "https://www.amanr.me/"
 languageCode = "en-us"
 theme = "hugo-theme-stack"
 title = "Aman Rathore"
@@ -14,20 +14,22 @@ weight = 1
 [languages.en.params.sidebar]
 subtitle = "The biggest enemy of talent is applause"
 
+[services]
 [services.googleAnalytics]
+id = 'G-G9W7J5DST6'
 
 [permalinks]
 post = "/p/:slug/"
 page = "/:slug/"
 
 [params]
-mainSections = ["post"]
+mainSections = ["column"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "images/favicon.ico"
 
 [params.footer]
-since = 2_020
+since = 2_025
 
 [params.dateFormat]
 published = "Jan 02, 2006"
@@ -84,7 +86,7 @@ local = false
 
 [params.colorScheme]
 toggle = true
-default = "auto"
+default = "light"
 
 [params.imageProcessing.cover]
 enabled = true
@@ -158,3 +160,6 @@ tabWidth = 4
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[pagination]
+pagerSize = 7
