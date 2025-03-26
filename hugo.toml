@@ -5,7 +5,7 @@ title = "Aman Rathore"
 copyright = "Aman Rathore"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
-timeout = "60s"
+timeout = "200s"
 
 [languages.en]
 languageName = "English"
