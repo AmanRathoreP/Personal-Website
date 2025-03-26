@@ -164,3 +164,6 @@ dir = ':cacheDir/images'
 
 [pagination]
 pagerSize = 7
+
+[timeout]
+render = "60s"
