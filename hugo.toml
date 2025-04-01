@@ -121,6 +121,13 @@ url = "https://www.linkedin.com/in/amanrathorep"
 
 [menu.social.params]
 icon = "platforms/brand-linkedin"
+[[menu.social]]
+identifier = "email"
+name = "Email"
+url = "mailto:amanrathore9753@gmail.com"
+
+[menu.social.params]
+icon = "platforms/mail"
 
 [related]
 includeNewer = true
